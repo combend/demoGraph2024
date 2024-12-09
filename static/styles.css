@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+h1, h2 {
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+table {
+    width: 60%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table, th, td {
+    border: 1px solid brown;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: lightsteelblue;
+    font-size: 1.1em;
+}
+
+td {
+    background-color: whitesmoke;
+    font-size: 1.1em;
+}
+
+/* Subtle alternative row highlight */
+tr:nth-child(even) td {
+    background-color: seashell;
+}
+
+#chart {
+    width: 80%;
+    height: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
